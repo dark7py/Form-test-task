@@ -1,0 +1,28 @@
+.modal {
+  width: 600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10% auto auto;
+  padding: 50px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .messageSuccess {
+    color: #00d700;
+    margin-bottom: 50px;
+  }
+
+  .messageError {
+    color: #ff1919;
+    margin-bottom: 50px;
+  }
+
+  .data {
+    width: 500px;
+  }
+}
+
